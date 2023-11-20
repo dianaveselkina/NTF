@@ -141,3 +141,26 @@ body {
   width: 20px;
   height: 20px;
 }
+.highlight {
+  position: relative;
+}
+.highlight__img {
+  background-size: cover;
+  height: 670px;
+  width: 100%;
+  background-image: linear-gradient(
+      180deg,
+      rgba(162, 89, 255, 0) 0%,
+      #a259ff 100%
+    ),
+    url(../img/highlight_img.png);
+}
+.highlight__info {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  text-align: center;
+}
