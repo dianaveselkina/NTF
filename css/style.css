@@ -109,6 +109,12 @@ h1 {
   margin-top: 0;
   margin-bottom: 0;
 }
+h2 {
+  font-family: Work Sans;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+}
 .container {
   max-width: 1310px;
   padding: 0 30px;
@@ -204,6 +210,72 @@ h1 {
   flex-direction: row;
   align-items: center;
   padding-left: 20px;
+  gap: 12px;
+}
+.trending__container {
+  padding: 80px 30px;
+}
+.trending__name {
+  display: flex;
+  flex-direction: column;
+}
+.trending__title {
+  display: inline;
+  padding-bottom: 10px;
+  padding-left: 60px;
+}
+.trending__text {
+  display: inline;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 60px;
+  padding-left: 60px;
+}
+.trending__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card__images {
+  width: 330px;
+  height: 445px;
+}
+.card__images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+.card__img1 {
+  grid-column: 1/5;
+  grid-row: 1/4;
+}
+.card__img2 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.card__img3 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+.card__img4 {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+.card__title {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 15px 0 10px;
+}
+.card__avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   gap: 12px;
 }
 .logo-icon {
