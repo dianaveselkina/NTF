@@ -101,6 +101,14 @@ body {
   background-color: #2b2b2b;
   color: #fff;
 }
+h1 {
+  font-family: Work Sans;
+  font-size: 67px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .container {
   max-width: 1310px;
   padding: 0 30px;
@@ -135,13 +143,49 @@ body {
 .hero__container {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 80px;
 }
 .hero__description {
   display: flex;
   flex-direction: column;
 }
+.hero__title {
+  padding-top: 0;
+}
+
+.hero__text {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 20px 0 30px;
+}
 .hero__btn {
+  width: 224px;
   padding: 0px 50px;
+}
+.hero__prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.hero__price {
+  display: flex;
+  flex-direction: column;
+}
+.hero__number {
+  font-family: Space Mono;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+.hero__note {
+  font-family: Work Sans;
+  font-size: 23.99px;
+  font-style: normal;
+  font-weight: 400;
 }
 .logo-icon {
   width: 32px;
