@@ -244,6 +244,7 @@ h2 {
 }
 .card__images {
   display: grid;
+  justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 15px;
@@ -272,11 +273,98 @@ h2 {
   font-weight: 600;
   padding: 15px 0 10px;
 }
+.creator__text {
+  padding-bottom: 60px;
+  padding-top: 10px;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
 .card__avatar {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 12px;
+}
+.creator__container {
+  padding: 80px 60px;
+}
+.creator__name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.creator__btn {
+  display: flex;
+  height: 60px;
+  padding: 0px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 20px;
+  border: 2px solid #a259ff;
+}
+.creator__cards {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+}
+.creator__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 238px;
+  border-radius: 20px;
+  background: #3b3b3b;
+  align-items: center;
+}
+.creator__circle {
+  display: inline-block;
+  background: #2b2b2b;
+  text-align: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.circle__number {
+  position: relative;
+  top: 1.6em;
+  left: -5.3em;
+  padding: 0em 0.9em;
+  color: #858584;
+}
+.creator__img {
+  padding: 20px 65px 20px;
+}
+.creator__avatarka {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator__price {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: #858584;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.creator__currency {
+  color: #fff;
+  font-family: Space Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
 .logo-icon {
   width: 32px;
@@ -297,23 +385,7 @@ h2 {
   width: 20px;
   height: 20px;
 }
-.creator__circle {
-  display: inline-block;
-  background: #ccc;
-  color: #000;
-  text-align: center;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  transform: translateY(-50%);
-}
 
-.circle__number {
-  position: relative;
-  top: -0.5em;
-  padding: 0em 0.65em;
-}
 .eye-icon {
   width: 20px;
   height: 20px;
