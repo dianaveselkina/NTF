@@ -393,10 +393,39 @@ h2 {
   font-weight: 600;
   padding: 20px 30px;
 }
+.discover__container {
+  padding-bottom: 80px;
+}
+.discover__name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.discover__title {
+  padding: 0 0 10px 40px;
+}
+.discover__text {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0 0 60px 40px;
+}
+.discover__btn {
+  display: flex;
+  height: 60px;
+  padding: 0px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 20px;
+  border: 2px solid #a259ff;
+  margin-right: 40px;
+}
 .discover__cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .discover__card {
   border-radius: 20px;
@@ -404,6 +433,51 @@ h2 {
   height: 469px;
   display: flex;
   flex-direction: column;
+}
+.discover__name {
+  padding: 20px 30px 0 30px;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+}
+.discover__avatar {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  padding-left: 30px;
+}
+.discover__prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px 30px 0 30px;
+}
+.fix-price,
+.highest-bid {
+  color: #858584;
+  font-family: Space Mono;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.fix-number,
+.highest__number {
+  font-family: Space Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.discover__price1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.discover__price2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .logo-icon {
   width: 32px;
