@@ -393,6 +393,18 @@ h2 {
   font-weight: 600;
   padding: 20px 30px;
 }
+.discover__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.discover__card {
+  border-radius: 20px;
+  background: #3b3b3b;
+  height: 469px;
+  display: flex;
+  flex-direction: column;
+}
 .logo-icon {
   width: 32px;
   height: 32px;
