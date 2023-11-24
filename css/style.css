@@ -619,13 +619,16 @@ h2 {
   font-weight: 400;
   padding: 10px 0 49px;
 }
-.subscription__button {
+.subscription__button,
+.digest__button {
+  max-width: 425;
   display: flex;
   flex-direction: row;
   position: relative;
   padding-bottom: 40px;
 }
-.subscription__btn {
+.subscription__btn,
+.digest__btn {
   display: flex;
   height: 60px;
   padding: 20px 0px 16px 20px;
@@ -643,7 +646,8 @@ h2 {
   font-style: normal;
   font-weight: 400;
 }
-.subscription__btn1 {
+.subscription__btn1,
+.digest__btn1 {
   position: absolute;
   top: 0;
   right: 0;
