@@ -545,6 +545,32 @@ h2 {
   background: rgba(59, 59, 59, 0.5);
   backdrop-filter: blur(5px);
 }
+.start__card {
+  width: 330px;
+  height: 439px;
+  border-radius: 20px;
+  background: #3b3b3b;
+  display: flex;
+  flex-direction: column;
+}
+.start__img {
+  padding: 10px 30px 20px 30px;
+}
+.start__name {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+}
+.start__description {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 10px 30px 30px 30px;
+}
 .logo-icon {
   width: 32px;
   height: 32px;
