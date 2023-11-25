@@ -8,4 +8,5 @@
 * CSS
 * SVG
 
-![banner](https://github.com/dianaveselkina/video-jokes/blob/main/watch%20deily.jpg)
+![banner](https://github.com/dianaveselkina/NTF/blob/main/Discover%20digital%20art.jpg)
+![banner](https://github.com/dianaveselkina/NTF/blob/main/Trending%20Collection.jpg)
