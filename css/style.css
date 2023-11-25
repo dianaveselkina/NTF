@@ -661,6 +661,26 @@ h2 {
   border-radius: 20px;
   background: #a259ff;
 }
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 60px 0;
+}
+.footer__interface {
+  padding: 33px 0 20px;
+  color: #ccc;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.footer__social {
+  padding: 15px 0 30px;
+}
+hr {
+  border: 1px solid #858584;
+}
 .logo-icon {
   width: 32px;
   height: 32px;
