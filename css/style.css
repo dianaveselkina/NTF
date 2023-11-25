@@ -667,16 +667,32 @@ h2 {
   justify-content: space-between;
   padding: 40px 60px 0;
 }
-.footer__interface {
-  padding: 33px 0 20px;
+.footer__text {
   color: #ccc;
   font-family: Work Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
 }
+
+.footer__interface {
+  padding: 33px 0 20px;
+}
 .footer__social {
   padding: 15px 0 30px;
+}
+.explore__title {
+  padding-top: 10px;
+  font-family: Space Mono;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+}
+.nav-list__item1 {
+  padding: 25px 0 20px;
+}
+.nav-list__item3 {
+  padding-top: 20px;
 }
 hr {
   border: 1px solid #858584;
