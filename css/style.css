@@ -120,7 +120,6 @@ h2 {
 .container {
   background-color: #2b2b2b;
   max-width: 1310px;
-  padding: 0 30px;
   margin: 0 auto;
 }
 .header__container {
@@ -688,8 +687,9 @@ h2 {
   background: #a259ff;
 }
 .footer {
-  margin: 80px auto;
-  max-width: 100%;
+  background: #3b3b3b;
+  margin: 80px auto 0;
+  max-width: 1380px;
   height: 334px;
 }
 .footer__container {
