@@ -776,6 +776,9 @@ hr {
   font-style: normal;
   font-weight: 400;
 }
+.create__form {
+  padding-left: 60px;
+}
 .create__input {
   display: flex;
   height: 46px;
@@ -799,9 +802,40 @@ hr {
   position: relative;
 }
 .user-icon__form {
-  z-index: 2;
   position: absolute;
   top: 13px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+}
+.mail__form {
+  position: relative;
+  padding: 15px 0;
+}
+.mail-icon__form {
+  position: absolute;
+  top: 28px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+}
+.password__form {
+  position: relative;
+}
+.password__form1 {
+  position: relative;
+  padding: 15px 0 30px;
+}
+.password-icon__form {
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+}
+.password-icon__form1 {
+  position: absolute;
+  top: 28px;
   left: 20px;
   width: 20px;
   height: 20px;
