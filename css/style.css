@@ -762,14 +762,47 @@ hr {
   display: flex;
   flex-direction: row;
 }
+.form__title {
+  padding: 100px 0 20px 60px;
+  font-family: Work Sans;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 600;
+}
+.form__text {
+  padding: 0 0 40px 60px;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
 .create__input {
   display: flex;
   height: 46px;
-  padding: 16px 20px;
+  width: 330px;
+  padding: 16px 52px;
   align-items: center;
   gap: 12px;
   align-self: stretch;
   border-radius: 20px;
   border: 1px solid #858584;
   background: #fff;
+}
+.create__input::placeholder {
+  color: #2b2b2b;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.user__form {
+  position: relative;
+}
+.user-icon__form {
+  z-index: 2;
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
 }

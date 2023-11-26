@@ -58,8 +58,28 @@
       <section class="account__form container">
         <img class="account__image" src="img/spaceship.png" alt="spaceship" />
         <div class="registration__form">
+          <h2 class="form__title">Create account</h2>
+          <p class="form__text">
+            Welcome! enter your details and start<br />
+            creating, collecting and selling NFTs.
+          </p>
           <form class="create__form">
-            <input class="create__input" type="text" name="Username" /><br />
+            <div class="user__form">
+              <svg
+                class="user-icon__form"
+                viewBox="0 0 20 20"
+                role="img"
+                aria-label="user-icon"
+              >
+                <use xlink:href="/img/sprite.svg#user-icon__form"></use>
+              </svg>
+              <input
+                class="create__input"
+                type="text"
+                name="Username"
+                placeholder="Username"
+              />
+            </div>
             <input
               class="create__input"
               type="email"
