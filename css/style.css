@@ -753,3 +753,23 @@ hr {
   width: 32px;
   height: 32px;
 }
+.footer__form {
+  background: #3b3b3b;
+  max-width: 1380px;
+  height: 334px;
+}
+.account__form {
+  display: flex;
+  flex-direction: row;
+}
+.create__input {
+  display: flex;
+  height: 46px;
+  padding: 16px 20px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 20px;
+  border: 1px solid #858584;
+  background: #fff;
+}
