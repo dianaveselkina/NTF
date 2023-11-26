@@ -840,3 +840,15 @@ hr {
   width: 20px;
   height: 20px;
 }
+.input__submit {
+  display: flex;
+  height: 46px;
+  width: 330px;
+  padding: 0px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 20px;
+  background: #a259ff;
+}
