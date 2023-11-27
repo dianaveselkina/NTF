@@ -56,7 +56,6 @@
                   >
                     <use xlink:href="/img/sprite.svg#user-icon"></use>
                   </svg>
-                  <a class="header__link" href="#/registration"></a>
                 </button>
               </form>
             </ul>
@@ -566,10 +565,22 @@
             </div>
             <div class="highlight__timer">
               <p class="timer__title">Auction ends in:</p>
-              <div class="timer__number">59:59:59</div>
-              <p class="timer__time">
-                <span>Hours</span><span>Minutes</span><span>Seconds</span>
-              </p>
+              <div class="timer__block" id="clockdiv">
+                <div>
+                  <span class="hours"></span>
+                  <span class="hours__colon">:</span>
+                  <div class="smalltext">Hours</div>
+                </div>
+                <div>
+                  <span class="minutes"></span>
+                  <span class="minutes__colon">:</span>
+                  <div class="smalltext">Minutes</div>
+                </div>
+                <div>
+                  <span class="seconds"></span>
+                  <div class="smalltext">Seconds</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -742,5 +753,6 @@
         </div>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
