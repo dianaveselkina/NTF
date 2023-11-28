@@ -573,7 +573,7 @@ h2 {
 .timer__block {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 23px;
 }
 .hours,
 .minutes,
@@ -589,7 +589,7 @@ h2 {
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
-  padding: 5px 0 5px;
+  padding: 10px 0 5px;
 }
 .start__container {
   padding: 80px 60px;
