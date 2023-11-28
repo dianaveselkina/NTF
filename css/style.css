@@ -900,3 +900,34 @@ hr {
 .connection__image2 {
   padding: 20px 0 20px 0;
 }
+.rankings__title {
+  font-family: Work Sans;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 80px 0 20px 115px;
+}
+.rankings__text {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 115px;
+}
+.rankings__interval {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  min-width: 1050px;
+  max-width: 1050px;
+  padding: 14.5px 0 14.5px;
+}
+.rankings__images {
+  display: flex;
+  flex-direction: column;
+  min-width: 1050px;
+  max-width: 1050px;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 20px 0 40px;
+}
