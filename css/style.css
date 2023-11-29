@@ -991,3 +991,57 @@ hr {
   width: 24px;
   height: 24px;
 }
+.quantity__tab {
+  padding: 80px 115px 10px 115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.tab__ntf {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 525px;
+}
+.tab__oval {
+  display: inline-block;
+  background: #858584;
+  text-align: center;
+  border-radius: 20px;
+  width: 50px;
+  height: 32px;
+  position: relative;
+  left: 20px;
+}
+
+.tab__circle {
+  display: inline-block;
+  background: #3b3b3b;
+  text-align: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 32px;
+  position: relative;
+  left: 20px;
+}
+.circle__number1 {
+  z-index: 2;
+  position: absolute;
+  top: 7px;
+  left: -4px;
+  padding: 0em 0.9em;
+  color: #fff;
+}
+.tab__collections {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.circle__number2 {
+  z-index: 2;
+  position: absolute;
+  top: 7px;
+  left: -4px;
+  padding: 0em 0.9em;
+  color: #fff;
+}
