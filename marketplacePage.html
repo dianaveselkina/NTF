@@ -34,12 +34,12 @@
           <nav class="header__nav">
             <ul class="header__nav-list">
               <li class="nav-list__item">
-                <a class="nav-list__item" href="#">Marketplace</a>
+                <a class="nav-list__item" href="marketplacePage.html"
+                  >Marketplace</a
+                >
               </li>
               <li class="nav-list__item">
-                <a class="nav-list__item" target="_blank" href="rankings.html"
-                  >Rankings</a
-                >
+                <a class="nav-list__item" href="rankings.html">Rankings</a>
               </li>
               <li class="nav-list__item">
                 <a
@@ -66,7 +66,32 @@
           </nav>
         </div>
       </header>
-
+      <section class="browse__marketplace">
+        <h2 class="marketplace__title">Browse Marketplace</h2>
+        <p class="marketplace__text">
+          Browse through more than 50k NFTs on the NFT Marketplace.
+        </p>
+        <div class="marketplace__search">
+          <form class="search__form">
+            <input
+              class="search__input"
+              type="search"
+              placeholder="Search your favourite NFTs"
+            />
+            <button class="search__btn" type="submit">
+              <svg
+                class="search-icon"
+                viewBox="0 0 24 24"
+                role="img"
+                aria-label="user-icon"
+              >
+                <use xlink:href="/img/sprite.svg#search-icon"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+        <hr class="marketplace__hr" />
+      </section>
       <footer class="footer__form">
         <div class="footer__container container">
           <div class="footer__marketplace">
