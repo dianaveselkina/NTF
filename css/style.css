@@ -1013,7 +1013,11 @@ hr {
   position: relative;
   left: 20px;
 }
-
+.tab__hr {
+  border: 1px solid #858584;
+  max-width: 520px;
+  margin-left: 115px;
+}
 .tab__circle {
   display: inline-block;
   background: #3b3b3b;
@@ -1046,9 +1050,11 @@ hr {
   color: #fff;
 }
 .marketplace__cards {
+  max-width: 1050px;
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   grid-template-rows: repeat(4, 1fr);
   gap: 30px;
+  margin: 0 auto;
 }
