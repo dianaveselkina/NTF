@@ -481,6 +481,7 @@ h2 {
 }
 .fix-price,
 .highest-bid {
+  padding-bottom: 8px;
   color: #858584;
   font-family: Space Mono;
   font-size: 12px;
