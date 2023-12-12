@@ -1116,6 +1116,24 @@ hr {
     border-radius: 20px;
     border: 2px solid #a259ff;
   }
+  .subscription__card {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscription__image {
+    width: 315px;
+    height: 255px;
+  }
+  .subscription__button {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscription__btn1 {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
   .footer__container {
     display: flex;
     flex-direction: column;
