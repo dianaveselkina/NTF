@@ -1080,6 +1080,11 @@ hr {
   .header__nav {
     display: none;
   }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
   .burger__menu-btn {
     display: block;
     width: 24px;
@@ -1115,6 +1120,26 @@ hr {
     gap: 12px;
     border-radius: 20px;
     border: 2px solid #a259ff;
+  }
+  .discover__cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .highlight__info {
+    display: flex;
+    flex-direction: column;
+  }
+  .start__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .start__cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .start__card {
+    display: flex;
+    flex-direction: row;
   }
   .subscription__card {
     display: flex;
