@@ -179,7 +179,9 @@ h2 {
 .hero__title {
   padding-top: 0;
 }
-
+.hero__title-mobil {
+  display: none;
+}
 .hero__text {
   font-family: Work Sans;
   font-size: 22px;
@@ -329,6 +331,9 @@ h2 {
   gap: 12px;
   border-radius: 20px;
   border: 2px solid #a259ff;
+}
+.creator__btn-mobil {
+  display: none;
 }
 .creator__cards {
   display: grid;
@@ -1079,5 +1084,36 @@ hr {
     display: block;
     width: 24px;
     height: 24px;
+  }
+  .hero__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__title-mobil {
+    display: block;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .card1,
+  .card2 {
+    display: none;
+  }
+  .creator1 {
+    display: none;
+  }
+  .creator__btn {
+    display: none;
+  }
+  .creator__btn-mobil {
+    display: flex;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    border: 2px solid #a259ff;
   }
 }
