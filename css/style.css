@@ -136,6 +136,9 @@ h2 {
   width: 200px;
   height: 20px;
 }
+.burger__menu-btn {
+  display: none;
+}
 .header__nav {
   width: 50%;
 }
@@ -1059,4 +1062,22 @@ hr {
   grid-template-rows: repeat(4, 1fr);
   gap: 30px;
   margin: 0 auto 80px;
+}
+@media (width<=375px) {
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+  .header {
+    padding: 15px 0;
+  }
+  .header__nav {
+    display: none;
+  }
+  .burger__menu-btn {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
 }
