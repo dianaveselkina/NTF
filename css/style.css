@@ -1116,4 +1116,23 @@ hr {
     border-radius: 20px;
     border: 2px solid #a259ff;
   }
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .digest__button {
+    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .digest__btn1 {
+    display: none;
+  }
+  .digest__btn1-mobil {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
 }
