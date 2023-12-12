@@ -1084,6 +1084,7 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-right: 108px;
   }
   .burger__menu-btn {
     display: block;
@@ -1094,12 +1095,23 @@ hr {
     display: flex;
     flex-direction: column;
   }
+  .hero__title {
+    display: none;
+  }
   .hero__title-mobil {
-    display: block;
+    display: flex;
     font-family: Work Sans;
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+  }
+  .hero__text {
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
   }
   .card1,
   .card2 {
