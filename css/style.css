@@ -207,6 +207,10 @@ h2 {
   display: flex;
   flex-direction: column;
 }
+.hero__prices-mobil,
+.hero__btn-mobil {
+  display: none;
+}
 .hero__number {
   font-family: Space Mono;
   font-size: 28px;
@@ -334,6 +338,9 @@ h2 {
 }
 .creator__btn-mobil {
   display: none;
+}
+.creator__price-mobil {
+  text-align: center;
 }
 .creator__cards {
   display: grid;
@@ -1160,9 +1167,23 @@ hr {
   .card2 {
     display: none;
   }
-  .creator1 {
-    display: none;
+  .creator__name {
+    padding: 0;
   }
+  .creator__text {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .creator__title {
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    padding-right: 0;
+  }
+
   .creator__btn {
     display: none;
   }
@@ -1175,6 +1196,51 @@ hr {
     gap: 12px;
     border-radius: 20px;
     border: 2px solid #a259ff;
+  }
+  .creator__cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .creator__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    width: 315px;
+  }
+  .creator__img {
+    width: 60px;
+    height: 60px;
+    padding: 1px;
+  }
+  .creator__circle {
+    display: inline-block;
+    background: #2b2b2b;
+    text-align: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .circle__number {
+    position: absolute;
+    top: 15px;
+    left: 7px;
+    z-index: 3;
+  }
+  .creator__price-mobil {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  .creator1 {
+    display: none;
+  }
+  .creator__btn-mobil {
+    width: 315px;
+    margin: 40px 0;
   }
   .discover__cards {
     display: flex;
