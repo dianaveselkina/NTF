@@ -1076,6 +1076,8 @@ hr {
   }
   .header {
     padding: 15px 0;
+    display: flex;
+    flex-direction: row;
   }
   .header__nav {
     display: none;
@@ -1085,11 +1087,13 @@ hr {
     flex-direction: row;
     align-items: center;
     padding-right: 108px;
+    gap: 10px;
   }
   .burger__menu-btn {
-    display: block;
+    display: flex;
     width: 24px;
     height: 24px;
+    align-items: flex-end;
   }
   .hero__container {
     display: flex;
@@ -1112,6 +1116,18 @@ hr {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
+  }
+  .hero__btn,
+  .hero__prices {
+    display: none;
+  }
+  .hero__btn-mobil {
+    margin-top: 40px;
+    display: flex;
+    width: 255px;
+  }
+  .hero__img {
+    height: 315px;
   }
   .card1,
   .card2 {
