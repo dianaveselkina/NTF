@@ -1242,6 +1242,30 @@ hr {
     width: 315px;
     margin: 40px 0;
   }
+  .categories__title {
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .categories__cards {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .categories__card {
+    width: 147px;
+    height: 209px;
+  }
+  .categories__name {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 20px;
+  }
   .discover__cards {
     display: flex;
     flex-direction: column;
