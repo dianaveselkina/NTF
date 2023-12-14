@@ -1416,7 +1416,7 @@ hr {
     background-color: #2b2b2b;
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 30px;
     align-items: center;
   }
   .subscription__image {
@@ -1456,9 +1456,34 @@ hr {
     justify-content: center;
     height: 46px;
   }
+  .footer {
+    background: #3b3b3b;
+    margin: 0 auto 0;
+    height: 750px;
+  }
   .footer__container {
     display: flex;
     flex-direction: column;
+  }
+  .footer__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 0 0 1px;
+    gap: 10px;
+  }
+  .subscription__text {
+    padding: 20px 0 20px;
+  }
+  .digest__btn {
+    display: flex;
+    height: 46px;
+    padding: 15px 0px 16px 20px;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: #fff;
+    width: 315px;
   }
   .digest__button {
     min-width: 375px;
@@ -1474,5 +1499,9 @@ hr {
     align-items: center;
     display: flex;
     justify-content: center;
+    width: 315px;
+  }
+  .footer__copyright {
+    padding: 20px 0;
   }
 }
