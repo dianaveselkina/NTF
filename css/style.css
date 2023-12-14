@@ -1173,6 +1173,10 @@ hr {
     font-weight: 400;
     padding: 0 0 40px 0;
   }
+  .card__images {
+    width: 315px;
+    height: 445px;
+  }
   .trending__card {
     padding-bottom: 40px;
   }
@@ -1266,7 +1270,7 @@ hr {
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 30px;
+    gap: 20px;
   }
   .categories__card {
     width: 147px;
