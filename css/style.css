@@ -151,6 +151,9 @@ h2 {
   justify-content: space-evenly;
   align-items: center;
 }
+.burger__nav {
+  display: none;
+}
 #burger,
 [for='burger'] {
   display: none;
@@ -1110,7 +1113,7 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-right: 108px;
+    padding-right: 75px;
     gap: 10px;
   }
 
@@ -1125,6 +1128,14 @@ hr {
   [for='burger']::before {
     content: '☰';
   }
+  .burger__label {
+    display: block;
+    position: fixed;
+    width: 30px;
+    text-align: center;
+    right: 60px;
+    top: 23px;
+  }
   nav {
     display: none;
     position: fixed;
@@ -1134,6 +1145,9 @@ hr {
     margin-top: 30px;
     user-select: none;
     width: 60%;
+  }
+  .burger__nav {
+    right: 65px;
   }
   nav ul {
     margin: 0;
@@ -1152,6 +1166,24 @@ hr {
   }
   #burger:checked + [for='burger']::before {
     content: '⮾';
+  }
+  .marketplace__title {
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 0 15px;
+  }
+  .marketplace__text {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px 15px;
+  }
+  .search__form {
+    padding: 15px 10px;
+    margin: 30px 15px 40px 15px;
   }
   .hero__container {
     display: flex;
