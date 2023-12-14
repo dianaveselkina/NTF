@@ -1181,6 +1181,12 @@ hr {
     font-weight: 400;
     padding: 10px 15px;
   }
+  .discover__card1 {
+    display: none;
+  }
+  .discover__name1 {
+    padding: 20px 0px;
+  }
   .search__form {
     padding: 15px 10px;
     margin: 30px 15px 40px 15px;
@@ -1361,6 +1367,9 @@ hr {
     flex-direction: row;
     padding: 20px 30px 5px 30px;
   }
+  .discover__name3 {
+    padding: 20px 15px;
+  }
   .discover__title {
     font-family: Work Sans;
     font-size: 28px;
@@ -1393,6 +1402,20 @@ hr {
   }
   .discover__img {
     height: 238px;
+  }
+  .tab__hr {
+    border: 1px solid #858584;
+    max-width: 130px;
+    margin-left: 40px;
+  }
+  .circle__number1,
+  .circle__number2,
+  .tab__oval,
+  .tab__circle {
+    display: none;
+  }
+  .quantity__tab {
+    padding: 34px 66px 26px 75px;
   }
   .highlight__img {
     position: relative;
