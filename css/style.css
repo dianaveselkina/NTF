@@ -1411,22 +1411,50 @@ hr {
     padding-left: 0;
   }
   .subscription__card {
+    padding: 0;
+    border-radius: 20px;
+    background-color: #2b2b2b;
     display: flex;
     flex-direction: column;
+    gap: 80px;
+    align-items: center;
   }
   .subscription__image {
     width: 315px;
     height: 255px;
   }
+  .subscription__info {
+    max-width: 315px;
+  }
+  .subscription__title {
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 0;
+  }
+  .subscription__text {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
   .subscription__button {
     display: flex;
     flex-direction: column;
+  }
+  .subscription__btn {
+    padding-top: 15px;
+    width: 315px;
+    height: 46px;
+    margin-bottom: 16px;
   }
   .subscription__btn1 {
     position: relative;
     align-items: center;
     display: flex;
     justify-content: center;
+    height: 46px;
   }
   .footer__container {
     display: flex;
