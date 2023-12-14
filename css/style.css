@@ -1556,7 +1556,7 @@ hr {
   .footer {
     background: #3b3b3b;
     margin: 0 auto 0;
-    height: 750px;
+    height: 640px;
   }
   .footer__container {
     display: flex;
@@ -1598,7 +1598,18 @@ hr {
     justify-content: center;
     width: 315px;
   }
+  .digest__btn3 {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 315px;
+    height: 46px;
+  }
   .footer__copyright {
     padding: 20px 0;
+  }
+  .footer__form {
+    height: 640px;
   }
 }
