@@ -1007,6 +1007,9 @@ hr {
 .table__header-mobil {
   display: none;
 }
+.rankings__interval-mobil {
+  display: none;
+}
 .marketplace__title {
   font-family: Work Sans;
   font-size: 51px;
@@ -1207,6 +1210,7 @@ hr {
   .rankings__images-mobil {
     display: flex;
     flex-direction: column;
+
     gap: 20px;
     margin-bottom: 20px;
   }
@@ -1233,6 +1237,20 @@ hr {
     border: 1px solid #3b3b3b;
     display: flex;
     flex-direction: row;
+  }
+  .rankings__interval {
+    display: none;
+  }
+  .rankings__interval-mobil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .interval__hr {
+    border: 1px solid #858584;
+    max-width: 62px;
+    margin-left: 3px;
+    margin-bottom: 40px;
   }
   .hero__title {
     display: none;
