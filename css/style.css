@@ -1204,13 +1204,26 @@ hr {
     display: flex;
     flex-direction: column;
   }
+  .rankings__title {
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 0;
+  }
+  .rankings__text {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px 0 30px;
+  }
   .rankings__images {
     display: none;
   }
   .rankings__images-mobil {
     display: flex;
     flex-direction: column;
-
     gap: 20px;
     margin-bottom: 20px;
   }
@@ -1219,11 +1232,11 @@ hr {
     position: fixed;
     width: 30px;
     text-align: center;
-    left: 330px;
+    left: 312px;
     top: 23px;
   }
   .burger__nav2 {
-    right: 840px;
+    right: 65px;
   }
   .table__header {
     display: none;
