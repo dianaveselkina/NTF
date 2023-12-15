@@ -989,6 +989,9 @@ hr {
 .table__name4 {
   padding-left: 130px;
 }
+.rankings__images-mobil {
+  display: none;
+}
 .rankings__images {
   display: flex;
   flex-direction: column;
@@ -1195,6 +1198,14 @@ hr {
     display: flex;
     flex-direction: column;
   }
+  .rankings__images {
+    display: none;
+  }
+  .rankings__images-mobil {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   .hero__title {
     display: none;
   }
@@ -1204,8 +1215,6 @@ hr {
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 140%; /* 39.2px */
-    text-transform: capitalize;
   }
   .hero__text {
     font-family: Work Sans;
