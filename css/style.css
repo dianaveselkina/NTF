@@ -1265,6 +1265,13 @@ hr {
     margin-left: 3px;
     margin-bottom: 40px;
   }
+  .connection {
+    display: flex;
+    flex-direction: column;
+  }
+  .connection__image {
+    height: 232px;
+  }
   .hero__title {
     display: none;
   }
