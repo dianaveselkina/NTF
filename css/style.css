@@ -201,7 +201,7 @@ h2 {
   height: 20px;
 }
 .hero__btn {
-  width: 224px;
+  max-width: 224px;
   padding: 0px 50px;
 }
 .hero__prices {
@@ -721,7 +721,7 @@ h2 {
   width: 425px;
 }
 .btn__text {
-  width: 170px;
+  max-width: 170px;
   color: #2b2b2b;
   font-family: Work Sans;
   font-size: 16px;
@@ -1153,7 +1153,7 @@ hr {
     text-align: end;
     top: 17px;
     margin-top: 30px;
-    padding-right: 10px;
+    padding: 10px;
     user-select: none;
     width: 50%;
   }
@@ -1313,7 +1313,7 @@ hr {
   .hero__btn-mobil {
     margin-top: 40px;
     display: flex;
-    width: 315px;
+    max-width: 315px;
   }
   .hero__img {
     height: 350px;
@@ -1425,7 +1425,7 @@ hr {
     display: none;
   }
   .creator__btn-mobil {
-    width: 315px;
+    max-width: 315px;
     margin: 40px 0;
   }
   .categories__title {
@@ -1482,7 +1482,7 @@ hr {
   }
   .discover__btn-mobil {
     display: flex;
-    width: 315px;
+    max-width: 315px;
     margin: 40px 0 60px;
   }
   .discover__cards {
@@ -1539,7 +1539,7 @@ hr {
     background: #fff;
     color: #2b2b2b;
     display: flex;
-    width: 295px;
+    max-width: 295px;
     margin-top: 30px;
   }
   .highlight__info {
@@ -1635,7 +1635,7 @@ hr {
   }
   .subscription__btn {
     padding-top: 15px;
-    width: 315px;
+    max-width: 315px;
     height: 46px;
     margin-bottom: 16px;
   }
@@ -1696,7 +1696,7 @@ hr {
     align-items: center;
     display: flex;
     justify-content: center;
-    width: 315px;
+    max-width: 315px;
     height: 46px;
   }
   .footer__copyright {
