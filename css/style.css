@@ -1104,7 +1104,7 @@ hr {
   gap: 30px;
   margin: 0 auto 80px;
 }
-@media (width<=375px) {
+@media (width<=720px) {
   .container {
     max-width: 375px;
     margin: 0 auto;
@@ -1131,7 +1131,7 @@ hr {
     position: fixed;
     width: 30px;
     text-align: center;
-    right: 60px;
+    right: 6rem;
     top: 20px;
   }
   [for='burger']::before {
@@ -1146,14 +1146,16 @@ hr {
     top: 23px;
   }
   nav {
+    background-color: #3b3b3b;
     display: none;
     position: fixed;
     right: 65px;
     text-align: end;
     top: 17px;
     margin-top: 30px;
+    padding-right: 10px;
     user-select: none;
-    width: 60%;
+    width: 50%;
   }
   .burger__nav {
     right: 65px;
